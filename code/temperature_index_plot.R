@@ -25,7 +25,7 @@ read_csv("data/GLB.Ts+dSST.csv", skip = 1, na = "***") %>%
     plot.title.position = "plot",
     plot.title = element_text(margin = margin(b=15), color = "red", face = "bold"),
     plot.subtitle = element_text(size = 8, margin = margin(b=8)),
-    legend.position = c(0.1, 0.9),
+    legend.position = c(0.15, 0.9),
     legend.title = element_text(size=0),
     legend.key.height = unit(10, "pt"),
     legend.margin = margin(0,0,0,0)
